@@ -1,0 +1,26 @@
+_id: req_e478ef60d97a42f7a801d1b93332a333
+type: Request
+parentId: fld_ce336ff2c2744543b05f8c6e7787810e
+modified: 1669384181870
+created: 1669075271861
+url: "{{ _.baseUrl }}/api/cameras"
+name: List All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6de826383a364a68ae8fce6151eefdf8
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075271861
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

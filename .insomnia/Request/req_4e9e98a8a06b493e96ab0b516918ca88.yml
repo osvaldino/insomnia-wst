@@ -1,0 +1,29 @@
+_id: req_4e9e98a8a06b493e96ab0b516918ca88
+type: Request
+parentId: fld_5c0a5bccbc334e528f5712aa9682724f
+modified: 1670415905628
+created: 1669075087974
+url: "{{ _.baseUrl }}/api/authenticate"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@user.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669075087974
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

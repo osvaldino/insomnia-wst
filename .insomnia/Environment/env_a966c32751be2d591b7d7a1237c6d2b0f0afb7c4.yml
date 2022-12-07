@@ -1,0 +1,16 @@
+_id: env_a966c32751be2d591b7d7a1237c6d2b0f0afb7c4
+type: Environment
+parentId: wrk_90186f4d0ddd4d968a0609316b6de8b0
+modified: 1670415821247
+created: 1669075039024
+name: Base Environment
+data:
+  baseUrl: http://wst.test
+  tokenBeare: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3OTEyMSwiaXNzIjoiaHR0cDovL3dzdC50ZXN0L2FwaS9hdXRoZW50aWNhdGUiLCJpYXQiOjE2NzA0MTQ5OTksImV4cCI6MTY3MDQyNTc5OSwibmJmIjoxNjcwNDE0OTk5LCJqdGkiOiJUUDEyOVFIR045R3p2ZE9xIn0.B9SD57kr-ukmXtQ4_0DedxoSM3B1_jj0v58deb4iB_Q
+dataPropertyOrder:
+  "&":
+    - baseUrl
+    - tokenBeare
+color: null
+isPrivate: false
+metaSortKey: 1669075039024

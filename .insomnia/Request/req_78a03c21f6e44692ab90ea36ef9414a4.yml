@@ -1,0 +1,26 @@
+_id: req_78a03c21f6e44692ab90ea36ef9414a4
+type: Request
+parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
+modified: 1670372181503
+created: 1670372141146
+url: "{{ _.baseUrl }}/api/areas-regioes/1"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_45ac5148cb9c4203afa7335b64d23ac2
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075085919.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

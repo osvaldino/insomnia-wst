@@ -1,0 +1,26 @@
+_id: req_2e7301c86e8047528f31eecd5e8a6e56
+type: Request
+parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
+modified: 1670373656726
+created: 1669075335705
+url: "{{ _.baseUrl }}/api/areas-regioes/2"
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_88bf55e7bf124e0eb4bf11f2e6eb0fb1
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075085819.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

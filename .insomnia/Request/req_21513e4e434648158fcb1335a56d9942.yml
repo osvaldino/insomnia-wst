@@ -1,0 +1,52 @@
+_id: req_21513e4e434648158fcb1335a56d9942
+type: Request
+parentId: fld_ce336ff2c2744543b05f8c6e7787810e
+modified: 1670374945511
+created: 1669075321680
+url: "{{ _.baseUrl }}/api/cameras/1"
+name: Edit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"stream_id": "123",
+    	"estado_sigla": "RJ",
+    	"estado_imagem": "",
+    	"estado": "Rio de Janeiro",
+    	"area_regiao": "",
+    	"cidade": "",
+    	"nome_camera": "",
+    	"parceiro": "",
+    	"parceiro_link": "",
+    	"stream_hls": "",
+    	"referencia": "",
+    	"status": "",
+    	"visibilidade": "",
+    	"digest": "",
+    	"marca_dagua_superior_direito": "",
+    	"marca_dagua_superior_esquerdo": "",
+    	"poster": "",
+    	"previsao_metereologica": "",
+    	"previsao_metereologica_resumo": "",
+    	"descricao": "",
+    	"ad_anuncio": "",
+    	"ad_anuncio_single": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_40f9cf6c934f4d94bdb12888dfc5f397
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075271711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

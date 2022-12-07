@@ -1,0 +1,33 @@
+_id: req_1ebbcc763d2c434899450944d5b09285
+type: Request
+parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
+modified: 1670415058452
+created: 1670372130895
+url: "{{ _.baseUrl }}/api/areas-regioes"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Região norte",
+      "slug": "regiao-norte",
+      "visibilidade": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b08bbed1a50c47bd94f050eb855cf1b1
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075085969.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

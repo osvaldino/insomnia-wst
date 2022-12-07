@@ -1,0 +1,33 @@
+_id: req_dc5cfb27f27a4d7e962d844956d3fb8b
+type: Request
+parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
+modified: 1670374972923
+created: 1670372146367
+url: "{{ _.baseUrl }}/api/areas-regioes/1"
+name: Edit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Região sul",
+      "slug": "regiao-sul",
+      "visibilidade": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_40f9cf6c934f4d94bdb12888dfc5f397
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075085869.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
