@@ -1,9 +1,9 @@
 _id: req_21513e4e434648158fcb1335a56d9942
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670374945511
+modified: 1670474978685
 created: 1669075321680
-url: "{{ _.baseUrl }}/api/cameras/1"
+url: "{{ _.baseUrl }}/api/cameras/13"
 name: Edit
 description: ""
 method: PUT
@@ -11,19 +11,19 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"stream_id": "123",
-    	"estado_sigla": "RJ",
+    	"stream_id": "123123",
+    	"estado_sigla": "MT",
     	"estado_imagem": "",
-    	"estado": "Rio de Janeiro",
-    	"area_regiao": "",
-    	"cidade": "",
-    	"nome_camera": "",
+    	"estado": "Mato Grosso",
+    	"area_regiao_id": 1,
+    	"cidade": "Cuiabá",
+    	"nome_camera": "Camera 1",
     	"parceiro": "",
     	"parceiro_link": "",
     	"stream_hls": "",
     	"referencia": "",
     	"status": "",
-    	"visibilidade": "",
+    	"visibilidade": 1,
     	"digest": "",
     	"marca_dagua_superior_direito": "",
     	"marca_dagua_superior_esquerdo": "",
@@ -32,7 +32,9 @@ body:
     	"previsao_metereologica_resumo": "",
     	"descricao": "",
     	"ad_anuncio": "",
-    	"ad_anuncio_single": ""
+    	"ad_anuncio_single": "",
+    	"disponibilidade": "",
+    	"embeded_monuv": ""
     }
 parameters: []
 headers:
