@@ -1,10 +1,10 @@
 _id: req_21513e4e434648158fcb1335a56d9942
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670905952983
+modified: 1670908034562
 created: 1669075321680
 url: "{{ _.baseUrl }}/api/cameras/7"
-name: Edit
+name: Edit PNG
 description: ""
 method: PUT
 body:
