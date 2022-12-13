@@ -1,9 +1,9 @@
 _id: req_78a03c21f6e44692ab90ea36ef9414a4
 type: Request
 parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
-modified: 1670372181503
+modified: 1670907039741
 created: 1670372141146
-url: "{{ _.baseUrl }}/api/areas-regioes/1"
+url: "{{ _.baseUrl }}/api/areas-regioes/2"
 name: Show
 description: ""
 method: GET

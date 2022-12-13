@@ -1,9 +1,9 @@
 _id: req_dc5cfb27f27a4d7e962d844956d3fb8b
 type: Request
 parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
-modified: 1670476268257
+modified: 1670907046510
 created: 1670372146367
-url: "{{ _.baseUrl }}/api/areas-regioes/4"
+url: "{{ _.baseUrl }}/api/areas-regioes/2"
 name: Edit
 description: ""
 method: PUT
@@ -11,9 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "Região sul2",
-      "slug": "regiao-sul2",
-      "visibilidade": 1
+    	"estado_sigla": "ce",
+      "nome": "Nordeste",
+    	"slug": "nordeste",
+    	"status": true,
+    	"visibilidade": true
     }
 parameters: []
 headers:
