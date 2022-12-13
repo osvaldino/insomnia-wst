@@ -1,22 +1,19 @@
-_id: req_e478ef60d97a42f7a801d1b93332a333
+_id: req_b8d2f0628f8042afb1bc3b7cf7e85fdb
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670893007267
-created: 1669075271861
-url: "{{ _.baseUrl }}/api/cameras"
-name: List All
+modified: 1670894997724
+created: 1670892985124
+url: "{{ _.baseUrl }}/api/cameras/visibilidade/3"
+name: Change Visibilidade
 description: ""
 method: GET
 body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_6de826383a364a68ae8fce6151eefdf8
+headers: []
 authentication:
   type: bearer
   token: "{{ _.tokenBeare }}"
-metaSortKey: -1669075271861
+metaSortKey: -1669075179717.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

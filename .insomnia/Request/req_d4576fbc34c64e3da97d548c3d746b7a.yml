@@ -1,7 +1,7 @@
 _id: req_d4576fbc34c64e3da97d548c3d746b7a
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670474996533
+modified: 1670895009199
 created: 1669075307844
 url: "{{ _.baseUrl }}/api/cameras"
 name: Create
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"stream_id": "1231232",
+    	"stream_id": "12313",
     	"estado_sigla": "MT",
     	"estado_imagem": "",
     	"estado": "Mato Grosso",
@@ -22,8 +22,8 @@ body:
     	"parceiro_link": "",
     	"stream_hls": "",
     	"referencia": "",
-    	"status": "",
-    	"visibilidade": 1,
+    	"status": true,
+    	"visibilidade": true,
     	"digest": "",
     	"marca_dagua_superior_direito": "",
     	"marca_dagua_superior_esquerdo": "",

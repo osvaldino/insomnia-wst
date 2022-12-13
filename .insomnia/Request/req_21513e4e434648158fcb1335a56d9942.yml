@@ -1,9 +1,9 @@
 _id: req_21513e4e434648158fcb1335a56d9942
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670474978685
+modified: 1670895076688
 created: 1669075321680
-url: "{{ _.baseUrl }}/api/cameras/13"
+url: "{{ _.baseUrl }}/api/cameras/3"
 name: Edit
 description: ""
 method: PUT
@@ -22,8 +22,6 @@ body:
     	"parceiro_link": "",
     	"stream_hls": "",
     	"referencia": "",
-    	"status": "",
-    	"visibilidade": 1,
     	"digest": "",
     	"marca_dagua_superior_direito": "",
     	"marca_dagua_superior_esquerdo": "",
