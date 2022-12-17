@@ -1,9 +1,9 @@
 _id: req_a88098769da443dbb248b53354ffadb6
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670474280589
+modified: 1671295986798
 created: 1670372153806
-url: "{{ _.baseUrl }}/api/cameras/7"
+url: "{{ _.baseUrl }}/api/cameras/6"
 name: Delete
 description: ""
 method: DELETE
