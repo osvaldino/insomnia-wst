@@ -1,9 +1,9 @@
 _id: req_b8d2f0628f8042afb1bc3b7cf7e85fdb
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670894997724
+modified: 1671311926791
 created: 1670892985124
-url: "{{ _.baseUrl }}/api/cameras/visibilidade/3"
+url: "{{ _.baseUrl }}/api/cameras/visibilidade/1"
 name: Change Visibilidade
 description: ""
 method: GET

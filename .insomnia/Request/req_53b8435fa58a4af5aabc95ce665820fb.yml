@@ -1,9 +1,9 @@
 _id: req_53b8435fa58a4af5aabc95ce665820fb
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1670893363299
+modified: 1671311915510
 created: 1670892940409
-url: "{{ _.baseUrl }}/api/cameras/status/3"
+url: "{{ _.baseUrl }}/api/cameras/status/1"
 name: Change Status
 description: ""
 method: GET
