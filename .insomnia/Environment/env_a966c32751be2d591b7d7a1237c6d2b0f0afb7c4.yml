@@ -1,12 +1,12 @@
 _id: env_a966c32751be2d591b7d7a1237c6d2b0f0afb7c4
 type: Environment
 parentId: wrk_90186f4d0ddd4d968a0609316b6de8b0
-modified: 1671365722576
+modified: 1671376551617
 created: 1669075039024
 name: Base Environment
 data:
   baseUrl: http://wst.test
-  tokenBeare: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3OTEyMSwiaXNzIjoiaHR0cDovL3dzdC50ZXN0L2FwaS9hdXRoZW50aWNhdGUiLCJpYXQiOjE2NzEzNjU3MDIsImV4cCI6MTY3MTM3NjUwMiwibmJmIjoxNjcxMzY1NzAyLCJqdGkiOiJFRWFEQmE4bkR0dXZYQkhRIn0.u5rGtOyLrvUlYTiEjW7N83KyrMvrAZyJ2B_hoZyIMzQ
+  tokenBeare: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3OTEyMSwiaXNzIjoiaHR0cDovL3dzdC50ZXN0L2FwaS9hdXRoZW50aWNhdGUiLCJpYXQiOjE2NzEzNzY1MzgsImV4cCI6MTY3MTM4NzMzOCwibmJmIjoxNjcxMzc2NTM4LCJqdGkiOiJqc0U0YXJieFJHZEFSbnRGIn0.d8bZxJ1_lQ9DRUhsosQ0IQ-gQYUAUjcFRoskI5ewyOw
 dataPropertyOrder:
   "&":
     - baseUrl

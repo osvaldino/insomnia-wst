@@ -1,9 +1,13 @@
 _id: req_4e9e98a8a06b493e96ab0b516918ca88
 type: Request
 parentId: fld_5c0a5bccbc334e528f5712aa9682724f
-modified: 1671365701459
+modified: 1671376551766
 created: 1669075087974
-url: "{{ _.baseUrl }}/api/authenticate"
+url: "{{ _.baseUrl
+  }}/api/authenticateeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3OTEyMSwia\
+  XNzIjoiaHR0cDovL3dzdC50ZXN0L2FwaS9hdXRoZW50aWNhdGUiLCJpYXQiOjE2NzEzNzY1MzgsIm\
+  V4cCI6MTY3MTM4NzMzOCwibmJmIjoxNjcxMzc2NTM4LCJqdGkiOiJqc0U0YXJieFJHZEFSbnRGIn0\
+  .d8bZxJ1_lQ9DRUhsosQ0IQ-gQYUAUjcFRoskI5ewyOw"
 name: Login
 description: ""
 method: POST
