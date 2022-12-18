@@ -1,37 +1,23 @@
 _id: req_2587e1288d71414f821be98dac6d2097
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1671365699246
+modified: 1671375804059
 created: 1671309203299
-url: "{{ _.baseUrl }}/api/cameras/5"
+url: "{{ _.baseUrl }}/api/cameras/5/uploadVideo"
 name: Upload Video
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - name: video[]
-      value: wdsws
-      id: pair_8281501c704d45c09b51c7d10d06d096
-      type: file
-      multiline: null
-      fileName: /Users/osvaldino/Desktop/upload_teste.mp4
-      disabled: false
-    - id: pair_55195acd538d43a7815fc120cf95b44b
-      name: video[]
-      value: ewqewq
-      description: ""
-      type: file
-      multiline: null
-      fileName: /Users/osvaldino/Downloads/jre-8u351-macosx-x64.dmg
-      disabled: false
-    - id: pair_5532123fccab4a9c8e6cc96246550b46
+    - id: pair_e588983114fa491ba55261218b37f1bc
       name: video[]
       value: ""
       description: ""
       type: file
       multiline: null
-      fileName: /Users/osvaldino/Downloads/Insomnia_2022-11-25.json
+      fileName: /Users/osvaldino/Desktop/Gravação de Tela 2022-12-18 às 11.40.37.mov
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type
