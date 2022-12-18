@@ -1,7 +1,7 @@
 _id: req_d4576fbc34c64e3da97d548c3d746b7a
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1671314732892
+modified: 1671370290710
 created: 1669075307844
 url: "{{ _.baseUrl }}/api/cameras"
 name: Create PNG
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"area_regiao_id": "1",
-    	"stream_id": "3332",
-    	"estado_sigla": "MT",
+    	"area_regiao_id": 9,
+    	"stream_id": "74564567",
+    	"estado_sigla": "SP",
     	"estado_imagem": "",
-    	"estado": "Mato Grosso",
-    	"cidade": "Cuiabá",
+    	"estado": "São Paulo",
+    	"cidade": "Santos",
     	"nome_camera": "Camera 1",
     	"parceiro": "",
     	"parceiro_link": "",
