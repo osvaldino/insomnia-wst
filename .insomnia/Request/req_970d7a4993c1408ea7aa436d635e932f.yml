@@ -1,9 +1,9 @@
 _id: req_970d7a4993c1408ea7aa436d635e932f
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1671313976907
+modified: 1671760233688
 created: 1669075283121
-url: "{{ _.baseUrl }}/api/cameras/3"
+url: "{{ _.baseUrl }}/api/cameras/1"
 name: Show
 description: ""
 method: GET

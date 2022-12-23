@@ -1,10 +1,10 @@
 _id: req_21513e4e434648158fcb1335a56d9942
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1671311900309
+modified: 1671760221106
 created: 1669075321680
 url: "{{ _.baseUrl }}/api/cameras/1"
-name: Edit PNG
+name: Edit
 description: ""
 method: PUT
 body:
@@ -17,12 +17,13 @@ body:
     	"estado_imagem": "",
     	"estado": "Ceará",
     	"cidade": "Cuiabá",
-    	"nome_camera": "Camera 2",
+    	"nome_camera": "Governador Celso Ramos",
     	"parceiro": "",
     	"parceiro_link": "",
     	"stream_hls": "",
     	"referencia": "",
     	"previsao_metereologica": "",
+    	"disponibilidade": "free",
     	"descricao": "",
     	"embeded_monuv": "",
     	"ad_anuncio": true,

@@ -1,7 +1,7 @@
 _id: req_1ebbcc763d2c434899450944d5b09285
 type: Request
 parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
-modified: 1671366045510
+modified: 1671549902135
 created: 1670372130895
 url: "{{ _.baseUrl }}/api/areas-regioes"
 name: Create
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"estado_sigla": "SP",
-      "nome": "Guarujá"
+    	"estado_sigla": "CE",
+      "nome": "Ceará"
     }
 parameters: []
 headers:

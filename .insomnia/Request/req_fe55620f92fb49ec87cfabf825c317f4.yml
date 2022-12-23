@@ -1,22 +1,19 @@
-_id: req_a88098769da443dbb248b53354ffadb6
+_id: req_fe55620f92fb49ec87cfabf825c317f4
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1671760351141
-created: 1670372153806
-url: "{{ _.baseUrl }}/api/cameras/1"
-name: Delete
+modified: 1671759720603
+created: 1671758519949
+url: "{{ _.baseUrl }}/api/cameras/1/video/1"
+name: Delete Video
 description: ""
 method: DELETE
 body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_88bf55e7bf124e0eb4bf11f2e6eb0fb1
+headers: []
 authentication:
   type: bearer
   token: "{{ _.tokenBeare }}"
-metaSortKey: -1669075179817.5
+metaSortKey: -1669075179617.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

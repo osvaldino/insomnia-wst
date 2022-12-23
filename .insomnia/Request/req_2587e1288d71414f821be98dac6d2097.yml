@@ -1,27 +1,21 @@
 _id: req_2587e1288d71414f821be98dac6d2097
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1671377059699
+modified: 1671759678930
 created: 1671309203299
-url: "{{ _.baseUrl }}/api/cameras/5/uploadVideo"
+url: "{{ _.baseUrl }}/api/cameras/1/uploadVideo"
 name: Upload Video
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_c2659ff45a724e8e90c0f67a89be69cd
-      name: video
+    - id: pair_912ddef47e934bed9a57912f993ab24c
+      name: video[]
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: /Users/osvaldino/Desktop/Gravação de Tela 2022-12-18 às 11.40.37.mp4
-      disabled: false
-    - id: pair_3163244d4f9043319b01ee69cc7be537
-      name: ""
-      value: ""
-      description: ""
 parameters: []
 headers:
   - name: Content-Type
