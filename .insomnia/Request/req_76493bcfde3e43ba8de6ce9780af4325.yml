@@ -1,25 +1,25 @@
-_id: req_4e9e98a8a06b493e96ab0b516918ca88
+_id: req_76493bcfde3e43ba8de6ce9780af4325
 type: Request
 parentId: fld_5c0a5bccbc334e528f5712aa9682724f
-modified: 1672050621063
-created: 1669075087974
+modified: 1672050632189
+created: 1672050624879
 url: "{{ _.baseUrl }}/api/authenticate"
-name: Login Homolog
+name: Login User
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "teste@homol.com",
-    	"password": "112233"
+    	"email": "alfnet.design@gmail.com",
+    	"password": "12341234"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669075087974
+metaSortKey: -1669075086508.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

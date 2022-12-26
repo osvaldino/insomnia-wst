@@ -1,22 +1,19 @@
-_id: req_970d7a4993c1408ea7aa436d635e932f
+_id: req_888a779bb7a14edfa4afe05d6d2dccc8
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1672050924675
-created: 1669075283121
-url: "{{ _.baseUrl }}/api/cameras/3"
-name: Show
+modified: 1672051090524
+created: 1672050475433
+url: "{{ _.baseUrl }}/api/cameras/3/imagem/marca_dagua_superior_esquerdo"
+name: Delete Imagem
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_45ac5148cb9c4203afa7335b64d23ac2
+headers: []
 authentication:
   type: bearer
   token: "{{ _.tokenBeare }}"
-metaSortKey: -1669075271736
+metaSortKey: -1669075133795.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

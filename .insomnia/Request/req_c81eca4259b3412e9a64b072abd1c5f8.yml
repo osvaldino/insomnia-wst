@@ -1,18 +1,18 @@
 _id: req_c81eca4259b3412e9a64b072abd1c5f8
 type: Request
 parentId: fld_5c0a5bccbc334e528f5712aa9682724f
-modified: 1671682613367
+modified: 1672050677519
 created: 1670471673630
 url: "{{ _.baseUrl }}/api/authenticate"
-name: Login
+name: Login Admin
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "alfnet.design@gmail.com",
-    	"password": "12341234"
+    	"email": "admin@user.com",
+    	"password": "123456"
     }
 parameters: []
 headers:
