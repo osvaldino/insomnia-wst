@@ -1,18 +1,20 @@
-_id: req_1ebbcc763d2c434899450944d5b09285
+_id: req_d1bd84867f704058a048166811ce624e
 type: Request
-parentId: fld_a3b0751bfe134564a3fb5c0a0e6eb1f5
-modified: 1672138087674
-created: 1670372130895
-url: "{{ _.baseUrl }}/api/areas-regioes"
-name: Create
+parentId: fld_ce336ff2c2744543b05f8c6e7787810e
+modified: 1672139534291
+created: 1672138658026
+url: "{{ _.baseUrl }}/api/cameras/1/ordenar"
+name: Ordenar
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"estado_sigla": "ES",
-      "nome": "Area 4"
+    	"ids": [
+    		2,
+    		1
+    	]
     }
 parameters: []
 headers:
@@ -22,7 +24,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.tokenBeare }}"
-metaSortKey: -1669075085969.5
+metaSortKey: -1669075133745.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
