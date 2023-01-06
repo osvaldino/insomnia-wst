@@ -1,10 +1,10 @@
-_id: req_488bc9be74824d039312c5cc68c307f8
+_id: req_9b705cef496248d285acdf23f29b9ee4
 type: Request
-parentId: fld_4fd7749182b3419b9d3d3ae2b11425c9
-modified: 1672434454376
-created: 1669383088114
-url: "{{ _.baseUrl }}/api/praias/regioes/281"
-name: Picos - App
+parentId: fld_ce336ff2c2744543b05f8c6e7787810e
+modified: 1673006103078
+created: 1673006053165
+url: "{{ _.baseUrl }}/api/praia/bal.camboriu"
+name: Get Praia Referencia
 description: ""
 method: GET
 body: {}
@@ -12,11 +12,11 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_7025683c32114c7b974a841cb5b8fd42
+    id: pair_6de826383a364a68ae8fce6151eefdf8
 authentication:
   type: bearer
   token: "{{ _.tokenBeare }}"
-metaSortKey: -1669383088114
+metaSortKey: -1669075133695.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

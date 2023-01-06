@@ -1,10 +1,10 @@
-_id: req_488bc9be74824d039312c5cc68c307f8
+_id: req_af2ebfef968e41918e9b0c2f6fa0d105
 type: Request
-parentId: fld_4fd7749182b3419b9d3d3ae2b11425c9
-modified: 1672434454376
-created: 1669383088114
-url: "{{ _.baseUrl }}/api/praias/regioes/281"
-name: Picos - App
+parentId: fld_0272e53cfd884556a9385d4cb86462c9
+modified: 1672459208462
+created: 1672459148094
+url: "{{ _.baseUrl }}/api/praias/assign/{id}"
+name: create
 description: ""
 method: GET
 body: {}
