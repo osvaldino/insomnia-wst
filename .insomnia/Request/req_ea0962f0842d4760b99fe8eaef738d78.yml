@@ -1,0 +1,44 @@
+_id: req_ea0962f0842d4760b99fe8eaef738d78
+type: Request
+parentId: fld_a5596d7da460445d90eeb3552c71501d
+modified: 1673230019778
+created: 1673224516960
+url:  {{ _.baseUrl }}/api/usuarios
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "NOME 1",
+    	"email": "teste3@teste.com",
+    	"role": "user",
+    	"seen": 0,
+    	"genre": "50",
+    	"bornDate": "81",
+    	"phone": "62981242773",
+    	"knownThrough": "",
+    	"city": "Cuiabá",
+    	"state": "MT",
+    	"favs": "",
+    	"multis": "",
+    	"mode": "",
+    	"senha": 12341234,
+    	"confirmar_senha": 12341234
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669880711706.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

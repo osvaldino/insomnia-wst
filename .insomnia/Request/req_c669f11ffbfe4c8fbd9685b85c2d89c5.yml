@@ -1,0 +1,23 @@
+_id: req_c669f11ffbfe4c8fbd9685b85c2d89c5
+type: Request
+parentId: fld_a5596d7da460445d90eeb3552c71501d
+modified: 1673223741735
+created: 1673223717911
+url:  {{ _.baseUrl }}/api/usuarios
+name: List All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1670378335299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

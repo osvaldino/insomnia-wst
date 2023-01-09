@@ -1,0 +1,23 @@
+_id: req_dfea60d0a49646bb8d1c3a436ce8ca18
+type: Request
+parentId: fld_a5596d7da460445d90eeb3552c71501d
+modified: 1673224551772
+created: 1673224537545
+url:  {{ _.baseUrl }}/api/usuarios
+name: Delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669445291063.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

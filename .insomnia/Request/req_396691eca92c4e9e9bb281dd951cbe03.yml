@@ -1,0 +1,23 @@
+_id: req_396691eca92c4e9e9bb281dd951cbe03
+type: Request
+parentId: fld_a5596d7da460445d90eeb3552c71501d
+modified: 1673224554988
+created: 1673224533428
+url:  {{ _.baseUrl }}/api/usuarios
+name: Edit
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669507494012.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

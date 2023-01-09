@@ -1,0 +1,23 @@
+_id: req_6b7d2c79abd74f96a77db3217961ab2e
+type: Request
+parentId: fld_a5596d7da460445d90eeb3552c71501d
+modified: 1673230220833
+created: 1673224525943
+url:  {{ _.baseUrl }}/api/usuarios/185957
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669631899910.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
