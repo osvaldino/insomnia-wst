@@ -1,0 +1,27 @@
+_id: req_11ca74b2f6ea4526821f76d696f3866a
+type: Request
+parentId: fld_a5596d7da460445d90eeb3552c71501d
+modified: 1673354273078
+created: 1673354228985
+url:  {{ _.baseUrl }}/api/usuarios/password/185960
+name: password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: "{\n\t\"senha\": 23452345\n}\n\n\t"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669445291013.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

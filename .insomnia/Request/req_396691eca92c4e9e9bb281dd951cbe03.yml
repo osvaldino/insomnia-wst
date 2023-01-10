@@ -1,15 +1,46 @@
 _id: req_396691eca92c4e9e9bb281dd951cbe03
 type: Request
 parentId: fld_a5596d7da460445d90eeb3552c71501d
-modified: 1673224554988
+modified: 1673353839692
 created: 1673224533428
-url:  {{ _.baseUrl }}/api/usuarios
+url:  {{ _.baseUrl }}/api/usuarios/185960
 name: Edit
 description: ""
 method: PUT
-body: {}
+body:
+  mimeType: application/json
+  text: "{
+
+    \t\"name\": \"NOME 3\",
+
+    \t\"email\": \"te3st3w3e33@teste.com\",
+
+    \t\"role\": \"user\",
+
+    \t\"seen\": false,
+
+    \t\"genre\": \"50\",
+
+    \t\"bornDate\": \"81\",
+
+    \t\"phone\": \"62981242773\",
+
+    \t\"knownThrough\": \"google\",
+
+    \t\"city\": \"Cuiabá\",
+
+    \t\"state\": \"Rio Grande do Norte - RN\",
+
+    \t\"status\": true
+
+    }
+
+
+    \t"
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: bearer
   token: "{{ _.tokenBeare }}"

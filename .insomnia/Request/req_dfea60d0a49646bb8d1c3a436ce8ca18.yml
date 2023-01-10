@@ -1,9 +1,9 @@
 _id: req_dfea60d0a49646bb8d1c3a436ce8ca18
 type: Request
 parentId: fld_a5596d7da460445d90eeb3552c71501d
-modified: 1673224551772
+modified: 1673353691367
 created: 1673224537545
-url:  {{ _.baseUrl }}/api/usuarios
+url:  {{ _.baseUrl }}/api/usuarios/185960
 name: Delete
 description: ""
 method: DELETE

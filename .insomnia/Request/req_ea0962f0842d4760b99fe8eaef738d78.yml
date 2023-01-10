@@ -1,7 +1,7 @@
 _id: req_ea0962f0842d4760b99fe8eaef738d78
 type: Request
 parentId: fld_a5596d7da460445d90eeb3552c71501d
-modified: 1673230019778
+modified: 1673353782064
 created: 1673224516960
 url:  {{ _.baseUrl }}/api/usuarios
 name: Create
@@ -11,21 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"nome": "NOME 1",
-    	"email": "teste3@teste.com",
+    	"name": "NOME 3",
+    	"email": "te3s2t33e33@teste.com",
     	"role": "user",
-    	"seen": 0,
+    	"seen": false,
     	"genre": "50",
     	"bornDate": "81",
     	"phone": "62981242773",
-    	"knownThrough": "",
+    	"knownThrough": "google",
     	"city": "Cuiabá",
-    	"state": "MT",
-    	"favs": "",
-    	"multis": "",
-    	"mode": "",
-    	"senha": 12341234,
-    	"confirmar_senha": 12341234
+    	"state": "Rio Grande do Norte - RN"
     }
 parameters: []
 headers:
