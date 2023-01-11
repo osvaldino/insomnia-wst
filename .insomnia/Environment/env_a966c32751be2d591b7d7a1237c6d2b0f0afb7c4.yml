@@ -1,16 +1,22 @@
 _id: env_a966c32751be2d591b7d7a1237c6d2b0f0afb7c4
 type: Environment
 parentId: wrk_90186f4d0ddd4d968a0609316b6de8b0
-modified: 1673350575084
+modified: 1673402398868
 created: 1669075039024
 name: Base Environment
 data:
+  baseUrlHomolog: https://surfview.com.br/staging/
   baseUrl: http://wst.test/
-  tokenBeare: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE4NTk1MywiaXNzIjoiaHR0cDovL3dzdC50ZXN0Ly9hcGkvYXV0aGVudGljYXRlIiwiaWF0IjoxNjczMzUwNTY1LCJleHAiOjE2NzMzNjEzNjUsIm5iZiI6MTY3MzM1MDU2NSwianRpIjoiNlI2MDJvdDZlTXlHS0F3SiJ9.3OeMgceoDiHC8fHoOYejmbTzNeHw8dfupEXMBG0PgwA
+  tokenBeare: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE4NTk1MywiaXNzIjoiaHR0cDovL3dzdC50ZXN0Ly9hcGkvYXV0aGVudGljYXRlIiwiaWF0IjoxNjczNDAyMzg4LCJleHAiOjE2NzM0MTMxODgsIm5iZiI6MTY3MzQwMjM4OCwianRpIjoiUXg1dFVuR2p3YjY5U3ExdSJ9.1Ldj_UuFPj0HWzxur8Q1T5MQMr4IRCt5oR1tZ5MVhwM
+  base_url_monuv: https://app.monuv.com.br
+  token_monuv: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJzdWIiOjM2OTg3LCJpc3MiOiJodHRwOlwvXC9hcHAubW9udXYuY29tLmJyXC9hcGlcL2F1dGhlbnRpY2F0ZSIsImlhdCI6IjE2NzMzOTg0MzAiLCJleHAiOiIxNjgxMTc0NDMwIiwibmJmIjoiMTY3MzM5ODQzMCIsImp0aSI6IjUwNWEwNGU0MzA3ZjI0NTIzMWYzZjY3ZjNkYTc3ZTEyIn0.MjI0MGJhZmM2N2ZiYjllOTg4Y2Q0M2JkZDc4NjZjNmUyOTZkMGE2ZTBjNzAyMTBmMjBlMWNlNTI5ZTAyNzE1OQ
 dataPropertyOrder:
   "&":
+    - baseUrlHomolog
     - baseUrl
     - tokenBeare
+    - base_url_monuv
+    - token_monuv
 color: null
 isPrivate: false
 metaSortKey: 1669075039024

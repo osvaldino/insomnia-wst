@@ -1,0 +1,25 @@
+_id: req_25632176e7a34f05919843e2555b37e9
+type: Request
+parentId: fld_ce336ff2c2744543b05f8c6e7787810e
+modified: 1673400551490
+created: 1673400486920
+url: "{{ _.baseUrl }}/api/cameras/updateMonuv"
+name: Update Monuv
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075133645.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_d4576fbc34c64e3da97d548c3d746b7a
 type: Request
 parentId: fld_ce336ff2c2744543b05f8c6e7787810e
-modified: 1672694286046
+modified: 1673399310359
 created: 1669075307844
 url: "{{ _.baseUrl }}/api/cameras"
 name: Create
@@ -12,16 +12,16 @@ body:
   text: >-
     {
     	"area_regiao_id": 11,
-    	"stream_id": "542343534",
+    	"stream_id": "50534",
     	"estado_sigla": "SC",
     	"estado_imagem": "",
     	"estado": "Litoral Norte",
     	"cidade": "Bombinhas",
-    	"nome_camera": "Camera teste localhost",
+    	"nome_camera": "Balneário Gaivotas",
     	"parceiro": "",
     	"parceiro_link": "",
     	"stream_hls": "",
-    	"referencia": "",
+    	"referencia": "balneariogaivotas",
     	"previsao_metereologica": "",
     	"disponibilidade": "free",
     	"descricao": "",

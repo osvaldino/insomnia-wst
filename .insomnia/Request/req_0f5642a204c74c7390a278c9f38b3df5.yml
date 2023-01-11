@@ -1,0 +1,21 @@
+_id: req_0f5642a204c74c7390a278c9f38b3df5
+type: Request
+parentId: fld_821b89400f754049a499b7ea151ee296
+modified: 1673399776931
+created: 1673398462208
+url: "{{ _.base_url_monuv }}/api/cameras?token={{ _.token_monuv }}&p=hls"
+name: Get All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673398348189
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

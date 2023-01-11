@@ -1,0 +1,25 @@
+_id: req_95107d20eca54460aeb54225ac7e33ca
+type: Request
+parentId: fld_ce336ff2c2744543b05f8c6e7787810e
+modified: 1673401156455
+created: 1673400882329
+url: "{{ _.baseUrlHomolog }}/api/cameras/updateMonuv"
+name: Update Monuv Staging
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.tokenBeare }}"
+metaSortKey: -1669075110809.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
